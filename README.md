@@ -6,7 +6,7 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 ![](/fylo-data-storage.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Fylo-data-storage-component/
 
 ### Built with: 
 
