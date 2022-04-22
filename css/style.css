@@ -1,0 +1,121 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url("../images/bg-mobile.png") no-repeat;
+  font-family: "Raleway", sans-serif;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.top-card {
+  background-color: #1d2c67;
+  border-radius: 1rem;
+  border-top-right-radius: 9rem;
+  padding: 4rem;
+  margin-bottom: 1.5rem;
+}
+.top-card__logo {
+  margin-bottom: 3rem;
+}
+.top-card__icons-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.top-card__icons {
+  background-color: #0c122c;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-card {
+  background-color: #1d2c67;
+  border-radius: 1rem;
+  padding: 2rem 3rem 3rem;
+  position: relative;
+}
+.bottom-card__used-gb {
+  color: #dddbff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 85%;
+  text-align: center;
+}
+.bottom-card__bar {
+  background-color: #0c122c;
+  height: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.bottom-card__progress-bar {
+  height: 1.6rem;
+  width: 75%;
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #ffa399, #ff4d97);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2px;
+}
+.bottom-card__ball {
+  background-color: #ffffff;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 1rem;
+}
+.bottom-card__reference-numbers {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.bottom-card__gb-left {
+  position: absolute;
+  bottom: -35px;
+  left: calc(50% - 85px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 17rem;
+  height: 7rem;
+  border-radius: 1rem;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.bottom-card__gb-left-text {
+  font-size: 1.3rem;
+  color: #848794;
+  padding-left: 1rem;
+  letter-spacing: 1px;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.attribution a {
+  color: #ffa399;
+}
+
+/*# sourceMappingURL=style.css.map */

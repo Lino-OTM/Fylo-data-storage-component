@@ -1,0 +1,40 @@
+body {
+  background: url("../images/bg-desktop.png") no-repeat bottom #0c122c;
+  background-size: contain;
+}
+
+.main-container {
+  flex-direction: row;
+  width: 60%;
+}
+
+.top-card {
+  margin-right: 2rem;
+  min-width: 25rem;
+}
+
+.bottom-card {
+  flex-grow: 1;
+  margin-top: 5rem;
+  height: 10rem;
+  min-width: 45rem;
+}
+.bottom-card__gb-left {
+  top: -5rem;
+  left: 60%;
+}
+.bottom-card__gb-left::after {
+  content: "";
+  position: absolute;
+  bottom: -1.2rem;
+  right: 0;
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 1rem solid #ffffff;
+  border-top: 1rem solid #ffffff;
+  border-left: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+}
+
+/*# sourceMappingURL=media-queries.css.map */

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A data storage layout for an app" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" media="(min-width: 1080px)" />
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main class="main-container">
+
+      <div class="top-card">
+          <img class="top-card__logo" src="./images/logo.svg" alt="Fylo logo">
+          <div class="top-card__icons-wrapper">
+            <div class="top-card__icons">
+              <img src="./images/icon-document.svg" alt="document icon">
+            </div>
+            <div class="top-card__icons">
+              <img src="./images/icon-folder.svg" alt="folder icon">
+            </div>
+            <div class="top-card__icons">
+              <img src="./images/icon-upload.svg" alt="upload icon">
+            </div>
+          </div>
+      </div>
+
+      <div class="bottom-card">
+        <p class="bottom-card__used-gb">You’ve used <b class="bottom-card__gb">815 GB</b> of your storage</p>
+        <div class="bottom-card__bar">
+          <div class="bottom-card__progress-bar">
+            <div class="bottom-card__ball"></div>
+          </div>
+        </div>
+        <div class="bottom-card__reference-numbers">
+          <span>0 GB</span> <span>1000 GB</span>
+        </div>
+        <div class="bottom-card__gb-left">185 <span class="bottom-card__gb-left-text">GB LEFT</span></div>
+      </div>
+
+    </main>
+
+    <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ivan</a>.
+  </div>
+</footer>
+  </body>
+</html>
