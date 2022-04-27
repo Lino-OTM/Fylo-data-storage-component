@@ -19,6 +19,9 @@ body {
   height: 10rem;
   min-width: 45rem;
 }
+.bottom-card__used-gb {
+  text-align: start;
+}
 .bottom-card__gb-left {
   top: -5rem;
   left: 60%;

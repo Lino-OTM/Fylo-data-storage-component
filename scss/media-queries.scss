@@ -18,6 +18,10 @@
     height: 10rem;
     min-width: 45rem;
 
+    &__used-gb {
+      text-align: start;
+    }
+
     &__gb-left {
       top: -5rem;
       left: 60%;
